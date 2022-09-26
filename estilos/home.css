@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+header > .img {
+    background-image: url('../imagens/logo-pizzadobruno.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 90vh;
+}
+
+main {  background-color: darkred; }
+
+main h1 {   text-align: center;    margin: 0;  padding: 25px;  font-variant: small-caps;}
+
+.area-login {   display: flex; justify-content: center;    text-align: center; border-radius: 50%;}
+
+.area-login > div { background-color: grey; width: 44%;  height: 350px;  line-height: 30px; display: flex; } 
+
+.area-interna {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(78, 78, 78);
+    padding: 10px;
+    border-radius: 3%;
+}
+
+.area-interna > p {
+    color: white;
+    font-weight: 600;
+}
+
+.area-interna > p > a  {
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding: 6px;
+    border-radius: 3%;
+    border: 2px solid black;
+}
+
+.area-interna > p > a:hover{
+    background-color: white;
+    color: grey;
+}
+
+label {
+    color: white;
+}
+
+input{
+    background-color: grey;
+    color: white;
+    font-size: 18px;
+    padding: 6px;
+    border-radius: 2%;
+}
+
+input:hover{
+    background-color: white;
+    color: grey;
+}
+
+input#itel{
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+

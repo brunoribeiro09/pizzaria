@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgb(49, 49, 49), rgb(150, 150, 150));
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > section {
+    justify-content: center;
+    text-align: center;
+    background-color: darkred;
+    width: 500px;
+    border: 3px solid black;
+}
+
+section > div.carrinho {
+    color: rgb(255, 255, 255);
+    background-color: rgb(94, 94, 94);
+    border-radius: 3%;
+    padding: 0.5rem;
+    width: 110px;
+    margin: auto;
+}
+
+.number{
+    width: 73px;
+}
